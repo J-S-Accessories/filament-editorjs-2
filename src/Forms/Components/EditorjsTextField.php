@@ -13,7 +13,7 @@ use Spatie\MediaLibrary\MediaCollections\Exceptions\FileDoesNotExist;
 use Spatie\MediaLibrary\MediaCollections\Exceptions\FileIsTooBig;
 use Spatie\MediaLibrary\MediaCollections\Models\Media;
 
-class EditorjsTextField extends Field implements \Filament\Forms\Components\Contracts\HasFileAttachments
+class EditorjsTextField extends Field
 {
     use HasFileAttachments;
     use HasHeight;
